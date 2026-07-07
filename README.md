@@ -6,7 +6,7 @@ Built as a differentiated take on "digital twin" chatbots: instead of just answe
 
 ## Demo
 
-*(Add a screenshot or GIF of the chat UI here once you have one — this is the single highest-impact thing you can add to this README)*
+![Turing Digital Twin Demo](docs/demo_screenshots/chat_demo.png)
 
 ## Features
 
