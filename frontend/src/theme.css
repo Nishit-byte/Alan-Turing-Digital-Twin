@@ -1,0 +1,43 @@
+:root {
+  --void: #0a0714;
+  --panel: #140b24;
+  --panel-raised: #1c1030;
+  --magenta: #e91e8c;
+  --blue: #4d7fff;
+  --violet: #8b3fd1;
+  --text: #f3eefc;
+  --text-dim: #9d8bc4;
+  --border: rgba(139, 63, 209, 0.35);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--void);
+  color: var(--text);
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: hidden;
+}
+
+.display-font {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mono-font {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-thumb {
+  background: var(--violet);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track { background: transparent; }
+
+/* respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
